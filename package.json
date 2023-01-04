@@ -1,0 +1,21 @@
+{
+  "name": "NewFrameWorkJs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate-report": "node reports/scripts/generate-report.js",
+    "test": "cucumber-js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "selenium-webdriver": "^4.7.1",
+    "chromedriver": "^108.0.0"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^8.9.0",
+    "multiple-cucumber-html-reporter": "^3.0.1"
+  }
+}
