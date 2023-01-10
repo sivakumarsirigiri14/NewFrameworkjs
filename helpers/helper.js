@@ -16,6 +16,7 @@ module.exports = {
 function getTestDataFolder() {
     let dirName = __dirname.split("/");
     let fullPath=dirName.splice(0, (dirName.length - 1)).join("\\") + "\\test_data\\";
+    console.log("full path is " + fullPath);
     return fullPath;
 }
 

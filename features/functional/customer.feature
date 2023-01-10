@@ -4,4 +4,4 @@ Feature: Greeting
     When I navigate to google homepage
     Then I should see google homepage
     And I search data using test.json
-    
+    Then I did search of this google

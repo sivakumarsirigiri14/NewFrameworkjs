@@ -1,0 +1,13 @@
+{
+  "uatExecution": true, 
+  "environments": {
+    "uat": {
+      "url": "https://www.google.co.uk/",
+      "name": "siva"
+    },
+    "qa": {
+      "url": "https://www.google.co.uk/"
+    }
+  }
+
+}
